@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service d'entretien</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Service d'entretien</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <p>Nous offrons une gamme complète de services d'entretien pour répondre à vos besoins.</p>
+        <ul>
+            <li>Nettoyage résidentiel</li>
+            <li>Entretien des espaces verts</li>
+            <li>Nettoyage commercial</li>
+            <!-- Ajoutez d'autres services si nécessaire -->
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>À propos de nous</h2>
+        <p>Nous sommes une équipe d'experts dévoués à fournir des services d'entretien de qualité supérieure.</p>
+        <!-- Ajoutez des informations supplémentaires sur votre entreprise -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Pour toute demande d'information ou pour obtenir un devis gratuit, veuillez nous contacter :</p>
+        <form action="submit.php" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Service d'entretien</p>
+    </footer>
+</body>
+</html>
